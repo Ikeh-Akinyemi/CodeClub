@@ -322,6 +322,8 @@ a {
   .paragraph2 {
     text-align: left;
     margin-left: 40px;
+    margin-bottom: 50px;
+    line-height: 2rem;
   }
 
   #about-Us {
@@ -332,6 +334,7 @@ a {
   .the-team {
     display: flex;
     flex: 1;
+    justify-content: center;
   }
 
   .Anderson {
@@ -349,8 +352,12 @@ a {
 
   [alt="John"] {
     width: 120px;
-    margin-right: 0rem;
     margin-bottom: 10px;
+    margin-right: a;
+  }
+
+  [alt="Jessica"] {
+    margin-right: auto;
   }
 
   .web-gallery {
