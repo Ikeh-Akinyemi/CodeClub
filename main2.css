@@ -49,6 +49,10 @@ body {
   font-size: 17px;
 }
 
+#hidden {
+  display: none;
+}
+
 [alt="Blue-laptop"] {
   width: 100%;
 }
@@ -93,6 +97,11 @@ h3 {
 #club-lead {
   margin-top: -17px;
   color: #5F6B80;
+}
+
+[alt="Jessica"] {
+  width: 110px;
+  margin-left: 2px;
 }
 
 #gallery {
@@ -210,12 +219,161 @@ label {
 
 .footer-code-club {
   margin-left: 6px;
+  display: flex;
 }
 
 .footer-code {
   margin-right: 4px;
 }
 
-.footer-club {
+a {
+  color: #FFFFFF !important;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  #hidden {
+    display: block;
+  }
+
+  .header-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+  }
+
+  .left {
+    display: flex;
+    height: 100px;
+    box-shadow: 0px 3px 6px #0000000D;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .logo2 {
+    margin-top: 20px;
+
+  }
+
+  .left-logo {
+    margin-left: 20px;
+  }
+
+  .ABOUT {
+    margin-top: 25px;
+    margin-right: 60px;
+    display: inline-block;
+    color: #5F6B80;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+  }
+
+  .MEET {
+    margin-top: 25px;
+    margin-right: 45px;
+    display: inline-block;
+    color: #5F6B80;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+
+  }
+
+  .GALLERY {
+    margin-top: 25px;
+    margin-right: 30px;
+    display: inline-block;
+    color: #5F6B80;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+
+  }
+
+  .CONTACT {
+    margin-right: 20px;
+    display: inline-block;
+    color: #5F6B80;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+  }
+
+  .contact-us {
+    margin-top: 12px;
+    margin-left: 14px;
+    background-color: #4285f4;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 13px 44px;
+    z-index: 10;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+  }
+
+  .first-content {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .paragraph2 {
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  #about-Us {
+    text-align: left;
+    margin-left: 39px;
+  }
+
+  .the-team {
+    display: flex;
+    flex: 1;
+  }
+
+  .Anderson {
+    display: flex;
+    align-items: center;
+  }
+
+  #club-lead {
+    font-size: 13px;
+  }
+  .leads {
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+
+  [alt="John"] {
+    width: 120px;
+    margin-right: 0rem;
+    margin-bottom: 10px;
+  }
+
+  .web-gallery {
+    display: flex;
+    flex: 1;
+  }
+
+  .sub-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  input {
+    padding-right: 500px;
+  }
+
+  .web-paragraph {
+    margin-top: -80px;
+    margin-bottom: 80px;
+  }
 
 }

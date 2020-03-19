@@ -1,5 +1,6 @@
+
 body {
-  margin: 0em;
+  margin: 0rem;
   font-family: 'Poppins', sans-serif;
   background-color: #fefefe;
   font-size: 18px;
@@ -69,6 +70,7 @@ h1 {
 
 .code--club {
   display: block;
+  text-align: left;
 }
 
 p {
@@ -161,6 +163,7 @@ h2 {
   border: 2px solid #FFFFFF;
   padding-top: 13px;
   padding-left: 43px;
+  margin-top: 40px;
   padding-bottom: 14.21px;
   padding-right: 47.45px;
   cursor: pointer;
@@ -169,20 +172,15 @@ h2 {
 [alt="Silver-macbook"] {
   width: 100%;
   z-index: -2;
-  margin-top: 68.3rem;
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
 
-.third-container {
-
-}
-
 .technology {
-  margin-top: 515.58px;
+  margin-top: 64.38px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,6 +188,7 @@ h2 {
 
 h3 {
   color: #5F6B80;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
@@ -211,14 +210,14 @@ h3 {
 }
 
 .python {
-  margin-top: 30px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 [alt="PYTHON"] {
-  margin-bottom: 72px;
+  margin-bottom: 56.87px;
 }
 
 .navigator {
@@ -233,6 +232,7 @@ h3 {
 .fa {
   color: #4285F433;
   font-size: 0.9rem;
+  margin-right: 10px;
 }
 
 .communities {
@@ -253,14 +253,17 @@ h3 {
 
 }
 
+#hidden {
+  display: none;
+}
+
 [alt="DSC-logo"] {
   margin-top: 63px;
   margin-bottom: 31px;
 }
 
 .students {
-
-
+  margin-left: 3px;
 }
 
 .google {
@@ -315,6 +318,7 @@ h3 {
 
 .btn-footer {
   font-weight: bolder;
+  margin-top: 19px;
   padding-top: 13px;
   padding-bottom: 13px;
   padding-left: 43px;
@@ -364,14 +368,183 @@ h3 {
 
 .footer-code-club {
   margin-left: 6px;
+  display: flex;
 }
 
 .footer-code {
   margin-right: 4px;
 }
 
-.footer-club {
-
+a {
+  color: #FFFFFF !important;
+  text-decoration: none;
 }
 
-@media
+@media only screen and (min-width: 1024px) {
+  .inner {
+    background: url(./img/two-woman-sitting-on-sofa-while-using-laptops/two-woman-sitting-on-sofa-while-using-laptops-1181274@2x.png) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+  }
+
+  .logo {
+    display: flex;
+  justify-content: start !important;
+  align-items: flex-start !important;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  box-shadow: 0px 3px 6px #0000000D;
+  margin-left: 28px;
+  margin-right: 16px;
+  box-shadow: none !important;
+  }
+
+  .first-container {
+    display: grid;
+    grid-template-columns: 50% auto !important;
+    margin-bottom: 0px;
+  }
+
+  .third-container {
+    display: grid;
+    grid-template-columns: 52% auto !important;
+  }
+
+  [alt="Silver-macbook"] {
+    height: 750px;
+    background-size: cover;
+  }
+
+  .technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+    margin-left: 30px;
+    margin-right: 0rem;
+    font-size: 20px;
+    margin-bottom: -50px;
+  }
+
+  h3 {
+    text-align: left;
+    margin-right: auto;
+    margin-top: 31px;
+    margin-left: 24px;
+    margin-bottom: 7px;
+  }
+  
+  .paragraph3 {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .html5 {
+    display: flex;
+    flex-direction: row !important;
+    margin-bottom: -60px !important;
+    margin-left: 70px;
+    margin-right: 2rem;
+  }
+
+  .python {
+    display: flex;
+    flex-direction: row !important;
+    margin-left: 70px;
+    margin-right: 2rem;
+  }
+
+  [alt="HTML5"] {
+    width: 50px;
+    margin-top: 44px;
+  }
+
+  [alt="PYTHON"] {
+    width: 50px;
+    margin-top: 15px;
+  }
+
+  .navigator {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 27px;
+  }
+
+  .hidden {
+    display: flex;
+
+  }
+
+  .DSC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 57px;
+    margin-left: 11px;
+    margin-right: 0px;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    background: #FEFEFE 0% 0% no-repeat padding-box;
+    font-size: 14px !important;
+  }
+
+  #hidden {
+    display: block;
+  }
+
+  [alt="DSC-logo"] {
+    margin-top: 30.5px !important;
+    margin-bottom: 0px;
+  }
+
+  [alt="microsoft"] {
+    margin-top: 27px;
+    margin-left: 22px;
+    margin-bottom: -10px;
+  }
+
+  [alt="github"] {
+    margin-top: 17.5px;
+    margin-left: 22px;
+    margin-bottom: -10px;
+  }
+
+  [alt="ingressive"] {
+    margin-top: 15.5px;
+    margin-left: 22px;
+    margin-bottom: -19px;
+  }
+
+  .ingressive {
+    margin-right: 6px;
+  }
+
+  .students {
+    margin-left: 22px;
+  }
+
+  #hidden2 {
+    display: none;
+  }
+
+  .testmonials {
+    text-align: center;
+    margin-top: 104px;
+    margin-bottom: 90px;
+  }
+
+  [alt="JohnDoe"] {
+    margin-top: 15px;
+  }
+
+  .DOE {
+    text-align: center;
+  }
+} 
+
+@media only screen and (min-width: 1152px) {
+  span {
+    display: block;
+    text-align: center;
+  }
+}
